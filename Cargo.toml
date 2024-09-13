@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "localization", "utils",
+]
+resolver = "2"
+
+[workspace.dependencies]
+rerun = "0.18.2"
+nalgebra = "0.33.0"
+lazy_static = "1.5.0"
+rand = "0.8.5"
+rand_distr = "0.4.3"
+utils = { version = "*", path = "utils" }

@@ -1,0 +1,12 @@
+[package]
+name = "localization"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rerun.workspace = true
+nalgebra.workspace = true
+lazy_static.workspace = true
+rand.workspace = true
+rand_distr.workspace = true
+utils.workspace = true
