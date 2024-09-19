@@ -1,0 +1,8 @@
+[package]
+name = "aerial_navigation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rerun.workspace = true
+nalgebra.workspace = true

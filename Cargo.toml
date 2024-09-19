@@ -1,5 +1,5 @@
 [workspace]
-members = [
+members = [ "aerial_navigation", "control",
     "localization", "utils",
 ]
 resolver = "2"
